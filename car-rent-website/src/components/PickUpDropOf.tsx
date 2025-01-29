@@ -3,9 +3,9 @@ import { LuArrowDownUp } from "react-icons/lu";
 import { MdKeyboardArrowDown } from "react-icons/md";
 export default function PickUpDropOf() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center gap-2 my-6 px-6 md:px-8 lg:px-16 2xl:px-24">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-2 my-6">
       {/* Pickup Section */}
-      <div className="bg-white px-6 md:px-10 py-4 md:py-8 rounded-lg w-full lg:w-[45%] space-y-6">
+      <div className="bg-white px-4 md:px-6 py-4 md:py-5 rounded-lg w-full space-y-6">
         <div className="flex justify-start items-center gap-2">
           <span className="w-[10px] h-[10px] bg-primary inline-block rounded-full border-2 border-blue-300 "></span>
           <p className="text-sm font-semibold ">Pick - Up</p>
@@ -13,7 +13,7 @@ export default function PickUpDropOf() {
         <div className="flex justify-between items-center gap-2">
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>
@@ -22,7 +22,7 @@ export default function PickUpDropOf() {
           </div>
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>
@@ -31,7 +31,7 @@ export default function PickUpDropOf() {
           </div>
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>
@@ -48,7 +48,7 @@ export default function PickUpDropOf() {
       </div>
 
       {/* drop of section */}
-      <div className="bg-white px-6 md:px-10 py-4 md:py-8 rounded-lg w-full lg:w-[45%] space-y-6">
+      <div className="bg-white px-4 md:px-6 py-4 md:py-6 rounded-lg w-full space-y-6">
         <div className="flex justify-start items-center gap-2">
           <span className="w-[10px] h-[10px] bg-primary inline-block rounded-full border-2 border-blue-300 "></span>
           <p className="text-sm font-semibold ">Pick - Up</p>
@@ -56,7 +56,7 @@ export default function PickUpDropOf() {
         <div className="flex justify-between items-center gap-2">
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>
@@ -65,7 +65,7 @@ export default function PickUpDropOf() {
           </div>
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>
@@ -74,7 +74,7 @@ export default function PickUpDropOf() {
           </div>
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-2">
               <p className="text-xs font-medium text-gray-500">
                 Select your city
               </p>

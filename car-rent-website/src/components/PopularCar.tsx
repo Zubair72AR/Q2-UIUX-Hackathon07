@@ -1,15 +1,18 @@
 import React from "react";
 import CarCardComp from "./CarCardComp";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function PopularCar() {
   return (
     <div className="my-8 px-6 md:px-8 lg:px-16 2xl:px-24">
       <div className="flex justify-between items-center p-3">
         <h2 className="font-semibold text-card-foreground">Popular Car</h2>
-        <Button variant={"link"} className="font-semibold text-base">
-          View All
-        </Button>
+        <Link href="/category-car">
+          <Button variant={"link"} className="font-semibold text-base">
+            View All
+          </Button>
+        </Link>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
         <CarCardComp

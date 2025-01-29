@@ -5,15 +5,19 @@ import { IoHeart } from "react-icons/io5";
 import { FaBell } from "react-icons/fa6";
 import { RiSettings4Fill } from "react-icons/ri";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <div className="px-6 md:px-8 lg:px-16 2xl:px-24">
       <div className="flex justify-between items-center border-none sm:border py-6 ">
         <div className="flex justify-between items-center gap-6 lg:gap-14">
-          <h2 className="font-bold text-2xl md:text-[32px] text-primary">
+          <Link
+            href="/"
+            className="font-bold text-2xl md:text-[32px] text-primary"
+          >
             MORENT
-          </h2>
+          </Link>
           <div className="hidden md:flex justify-between items-center border rounded-full px-4 py-2 gap-4">
             <LuSearch className="text-xl text-[#90A3BF]" />
             <input
