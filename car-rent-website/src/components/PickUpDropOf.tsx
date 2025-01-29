@@ -13,27 +13,27 @@ export default function PickUpDropOf() {
         <div className="flex justify-between items-center gap-2">
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
                 Select your city
               </p>
               <MdKeyboardArrowDown />
             </div>
           </div>
           <div className="space-y-">
-            <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
-                Select your city
+            <p className="text-sm font-semibold">Date</p>
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
+                Select your date
               </p>
               <MdKeyboardArrowDown />
             </div>
           </div>
           <div className="space-y-">
-            <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
-                Select your city
+            <p className="text-sm font-semibold">Time</p>
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
+                Select your time
               </p>
               <MdKeyboardArrowDown />
             </div>
@@ -56,27 +56,27 @@ export default function PickUpDropOf() {
         <div className="flex justify-between items-center gap-2">
           <div className="space-y-">
             <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
                 Select your city
               </p>
               <MdKeyboardArrowDown />
             </div>
           </div>
           <div className="space-y-">
-            <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
-                Select your city
+            <p className="text-sm font-semibold">Date</p>
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
+                Select your date
               </p>
               <MdKeyboardArrowDown />
             </div>
           </div>
           <div className="space-y-">
-            <p className="text-sm font-semibold">Locations</p>
-            <div className="flex justify-between items-center gap-2">
-              <p className="text-xs font-medium text-gray-500">
-                Select your city
+            <p className="text-sm font-semibold">Time</p>
+            <div className="flex justify-between items-center gap-1">
+              <p className="text-xs font-medium text-card-foreground">
+                Select your time
               </p>
               <MdKeyboardArrowDown />
             </div>

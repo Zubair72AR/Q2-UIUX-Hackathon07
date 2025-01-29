@@ -73,3 +73,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+input[type="checkbox"] {
+  width: 20px; /* Width */
+  height: 20px; /* Height */
+  accent-color: teal; /* Checkbox color */
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+.custom-checkbox {
+  padding: 4px 8px; /* Add padding around the label */
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
